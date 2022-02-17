@@ -33,3 +33,17 @@ The `./backend` directory contains a partially completed Flask server with a pre
 The `./frontend` directory contains a complete Ionic frontend to consume the data from the Flask server. You will only need to update the environment variables found within (./frontend/src/environment/environment.ts) to reflect the Auth0 configuration details set up for the backend app.
 
 [View the README.md within ./frontend for more details.](./frontend/README.md)
+
+### Additional Notes/Commands
+
+Run Flask:
+- set FLASK_DEBUG=1 && python -m flask run
+
+Activate virtual environment:
+- . env/scripts/activate
+
+Deactivate virtual environment:
+- deactivate
+
+Coffee Shop Website:
+https://dev-r-0hid9s.us.auth0.com/authorize?audience=coffee&scope=SCOPE&response_type=token&client_id=gsq1ozWqBwS83rsD89bBbHf2v6VQ3Cbk&redirect_uri=https://127.0.0.1:8080/login
